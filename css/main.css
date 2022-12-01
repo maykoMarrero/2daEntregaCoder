@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-------barra-nav---*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-color:#fafa87;
+    padding: 0 !important;
+}
+/*----- main-*/
+
+main{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+.img img{
+    border-radius: 10px;
+    width: 80%;
+    height: 60vh;
+    margin-left: 5px;
+    z-index: -1; 
+}
+.titulo-principal{
+    font-family: "Nerko One, roboto";
+    font-weight: bold;
+    font-size: 5rem;
+    color:#ffcd54;
+}
+/*----- galeria -----*/
+ .picture{
+    width: 500px;
+    height: 60vh;
+    min-width: 200px;
+    border-radius: 5px;
+}
+h2, h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+article{
+    background: #ffcd54;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+#articulo p:last-child{
+    margin-bottom: 50px;
+}
+/* formulario-----*/
+form{
+background-color: #ffcd54;
+color: #ffffff;
+padding: 5px;
+}
+.btn{
+    width: 90px;
+    height: 60px;
+    border-radius: 2px;
+    color: #ffffff;
+    background: #ff9636;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background: #d37506;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+}
